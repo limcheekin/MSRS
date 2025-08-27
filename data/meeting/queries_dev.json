@@ -1,0 +1,399 @@
+{
+    "392": {
+        "query": "What were the Professor's thoughts on the results and clustering in language generation?",
+        "gold_documents": [
+            "Bro011",
+            "Bed014",
+            "Bro005"
+        ],
+        "answer": "Summary:\nThe professor expressed surprise at the better-than-expected results and concluded that MSG had no impact. However, he observed that the inclusion of French and Spanish in the multilingual English model had a negative effect. The professor was not enthusiastic about clustering and suggested giving more weight to the most promising bands in the model. Currently, the model treated all bands equally. In terms of the SmartKom generation module, the syntax-to-prosody rules for English will be rewritten, and OGI will provide a variety of synthesizer voices to choose from."
+    },
+    "393": {
+        "query": "Summarize the feedback and suggestions for the prototype of the remote, including the special features discussed.",
+        "gold_documents": [
+            "IS1009d"
+        ],
+        "answer": "The remote design was praised by the marketing team for its user-friendly layout, allowing users to easily reach all buttons with one thumb, regardless of hand size. The prominent placement of the on-off button and attractive colors were also noted as positive features. To cater to both left- and right-handed individuals, mute buttons were positioned on either side. For international appeal, channel buttons would be labeled with numbers while the rest would feature easily recognizable symbols. Marketing also suggested incorporating a humorous element into the shell design, playing on the concept of a rapid snail. The user interface and industrial designers agreed on this idea. The remote's unique selling points would include voice recognition, a feature not commonly found in remotes within the same price range, and its adorable appearance, with the snail image serving as a visual attraction. However, practicality would not be a standout feature, as it was assumed that all competitors would offer this."
+    },
+    "394": {
+        "query": "Summarize Marketing's opinions and discussions on the size, design, and functionality of the remote control.",
+        "gold_documents": [
+            "TS3005b",
+            "IS1007a",
+            "TS3006d",
+            "ES2002b",
+            "ES2004c"
+        ],
+        "answer": "The team discussed the size of the remote control, with Marketing suggesting that the TV itself could have a user-friendly remote control system using different technology. However, the Project Manager believed that this idea would not appeal to men and Marketing eventually gave up on it. The group also debated whether installing a new remote would be seen as a technological innovation, with Marketing recommending voice recognition technology due to its fashionable and trendy appeal. The Marketing team emphasized the importance of innovation, considering the use of fruit and vegetable logos and primary colors on the remote control. They also noted that younger people were more interested in features like LCD screens and speech recognition, while older people were willing to spend more money on larger remote controls. Marketing highlighted the volume and channel buttons as the most important and should be easily accessible."
+    },
+    "395": {
+        "query": "Did the group find the remote control competitive in terms of evaluation criteria, battery design, and cover when discussing the functional design and prototype of the remote control?",
+        "gold_documents": [
+            "ES2006a",
+            "TS3011d",
+            "ES2012d"
+        ],
+        "answer": "The team had mixed opinions on the remote control design. While Marketing found the basic layout to be dull, they praised the brilliant voice recognition feature. User Interface acknowledged that the remote lacked digits but had all the necessary features. The Industrial Designer reminded everyone that they could only design within their capacity. The Project Manager agreed that the remote was of high quality but had low acceptance. \n\nIn terms of the battery design, the team wanted it to be long-lasting, original, and conventional to ensure innovation, versatility, and durability. They also wanted to avoid deviating too far from the usual performance to prevent issues for new users. \n\nUser Interface suggested using a rubber cover that could stretch over the remote, and the Project Manager agreed, asking the Industrial Designer to explore this idea further."
+    },
+    "396": {
+        "query": "What are the potential difficulties for researcher collaborations and networks after Brexit? How does the loss of funds due to leaving the European Union impact these collaborations and what are the possible solutions?",
+        "gold_documents": [
+            "education_10",
+            "education_20"
+        ],
+        "answer": "The impact of the Brexit deal on collaborations is still uncertain, particularly in relation to playing a role in Horizon Europe. Maintaining quality, impact, and growth in capacity is crucial for Wales. Dr. David Blaney believes that these efforts have already yielded positive results, such as increased research funding and a stronger presence in the international research market. However, the main challenge lies in securing sufficient funding. While the government recently allocated an additional \u00a36.6 million for research, this is not sustainable or adequate. The Welsh government has also expressed its vision for research and innovation, emphasizing the need for more investment in the Welsh research base to enhance competitiveness in accessing funding at a UK level."
+    },
+    "397": {
+        "query": "Summarize the discussions on the responsibility for developing curriculum resources, the flaws in the government's pandemic relief program, the debate over the economic recovery plan, and the official acknowledgment of Taiwan's donation by the Minister of Foreign Affairs.",
+        "gold_documents": [
+            "covid_0",
+            "education_21",
+            "covid_5"
+        ],
+        "answer": "The responsibility for determining the curriculum was seen as a joint effort between Philip Blaker and the Welsh Government. The opposition party raised concerns about the wage subsidy program, stating that some companies were unable to access it due to unnecessary barriers. However, the Deputy Prime Minister argued that the program was designed to support as many companies as possible. The government was urged to provide a comprehensive overview of the economic situation and emergency measures, but the minister emphasized the importance of considering each phase of the recovery. The Minister of Foreign Affairs highlighted the significance of the One China agreement and expressed gratitude for global cooperation in combating the Covid-19 virus."
+    },
+    "398": {
+        "query": "What were Dr. Frank Atherton's thoughts on having a target, investment, data, addressing gaps in data, and legislation to build a healthy environment?",
+        "gold_documents": [
+            "education_15"
+        ],
+        "answer": "Dr Frank Atherton emphasizes the importance of having a target that is both achievable and challenging. He believes that a target is not only a tool, but also an evaluation to assess progress. However, there is still much work to be done. In terms of investment, Dr Frank Atherton mentions that they currently invest in various areas related to child health, including obesity. The estimated investment needed for their plan is around \u00a38 million to \u00a310 million per year. Additionally, Dr Frank Atherton suggests considering diverting some of the \u00a37 billion spent on health and social care towards prevention initiatives and tackling obesity. The latest data presented by Dr Frank Atherton shows that less than a third of children aged four or five are overweight or obese, but the situation is not improving. The data also reveals that about 12% of children are severely obese. Dr Frank Atherton highlights the importance of having a longitudinal view of children's health over time, which would require significant resources. He also supports the implementation of legislation to create a healthy environment, citing examples of food takeaways. Overall, Dr Frank Atherton's goal is to address the challenges of child health and obesity through targeted strategies and investments."
+    },
+    "399": {
+        "query": "Summarize the marketing team's findings and learnings about the market trend.",
+        "gold_documents": [
+            "TS3010c",
+            "IS1006c"
+        ],
+        "answer": "The two groups, the young and trendy and the old and rich, had different preferences for their clothing and products. The young and trendy group preferred a fruit and vegetable theme with a spongy material, while the old and rich group preferred dark colors, simple shapes, and familiar materials like wood. Interestingly, the marketing team found that the trend of incorporating fruit and vegetable themes was widespread across various areas, from clothing to furniture. People seemed to prefer natural and round designs over futuristic ones with sharp angles and titanium."
+    },
+    "400": {
+        "query": "What is the problem related to feasibility?",
+        "gold_documents": [
+            "ES2007a"
+        ],
+        "answer": "The Project Manager proposed the idea of adding an LCD display screen to the remote control, allowing for different pages for different devices. However, due to budget constraints of twenty-five per unit, they decided to be realistic and stick to the budget."
+    },
+    "401": {
+        "query": "Summarize the discussion on spectral subtraction and the opinions of the professor and PhD F.",
+        "gold_documents": [
+            "Bro023",
+            "Bro012",
+            "Bro019"
+        ],
+        "answer": "The team explored different approaches for spectral subtraction, including both scaling and GGT bins. Each approach had its pros and cons. The professor suggested a simple spectral subtraction followed by a KL transformation. Additionally, he recommended using JRASTRA's technique, which involved adding noise to eliminate noise. The team also discussed VTS techniques. Initially, the professor did not see the advantage of combining the Wiener filter and the subspace, but later realized that a simple spectral subtraction, followed by a KL transform and a Wiener filter, would suffice. The log magnitude spectral subtraction utilized twelve seconds from the past and future to calculate the mean. The use of a short window did not significantly impact the model's performance, which was desirable. The team also removed silence to enhance the model's effectiveness, drawing a parallel to caching utterances. PhD F shared that the preliminary results from spectral subtraction were unsatisfactory, but mean normalization helped reduce noise. However, mean and variance normalization only improved speech, not noise variance."
+    },
+    "402": {
+        "query": "What were the thoughts of the Project Manager and the Industrial Designer regarding the energy source for the project, and why was the idea of using solar energy rejected?",
+        "gold_documents": [
+            "ES2012b",
+            "ES2013b"
+        ],
+        "answer": "The Project Manager expressed a preference for a disposable remote control that does not have a battery compartment and relies on predetermined battery life. The idea of using permanent batteries was also proposed. On the other hand, the Industrial Designer initially suggested rechargeable energy sources and later proposed a combination of solar and conventional batteries. This would allow the remote to use light as an energy source during the day and switch to the battery at night. However, the convenience of solar energy at night and the cost implications were questioned by the Industrial Designer."
+    },
+    "403": {
+        "query": "Summarize the discussion, requirements, and agreement regarding the transcripts.",
+        "gold_documents": [
+            "Bmr023",
+            "Bmr005",
+            "Bmr014"
+        ],
+        "answer": "The group aims to have the question answering mock-up and transcriber interface ready for the DARPA meeting in July, along with available data. Speaker fe008 is currently working on ensuring clean and properly coded transcripts, while speaker mn014's multi-channel speech/non-speech segmenter is being utilized. To save time, speaker mn005 will only mark regions of overlapping speech in the transcribed data. The task of extracting digits will be assigned to the person working on acoustics for the Meeting Recorder project."
+    },
+    "404": {
+        "query": "Summarize the presentation on marketing findings, trend-watching, market inspirations, and the evaluation of two versions.",
+        "gold_documents": [
+            "TS3008c",
+            "IS1009c",
+            "ES2002b",
+            "IS1007d"
+        ],
+        "answer": "The remote control design should prioritize functionality, with a focus on a comfortable fit, clear and obvious functions, and legible text. The appearance of the remote should be visually appealing and eye-catching. To meet the Christmas deadline and stay ahead of competition, the remote needs to be in the market soon. The trend for that year was fruit and vegetable shapes, along with a soft and spongy feel. The star features of the remote should be narrowed down to one or two, with voice recognition as a potential option. Marketing identified three key findings: a fancy look and feel, innovative technology, and high ease of use. They aimed to combine these findings with the trendy fruit and vegetable theme and sponge material, while considering the preferences of both the elder and young markets. Specific topics discussed included color design, related symbols and pictures, and the placement of the business logo. Marketing highlighted three main inspirations: the customer's desire for fashion in electronics, the simplicity of technology, and the importance of aesthetics in the remote's shape and color. Evaluation criteria were established, focusing on a fancy look and feel, innovativeness, and ease of use. The Industrial Designer and User Interface teams scored the prototypes, with emphasis on look and feel, innovativeness, and ease of use. The decision was made to create a remote control without an LCD screen, improving the design to make it more visually appealing. All functions would be included in the same set, but some, like speech recognition, would be optional. The team would also explore different shapes and materials for the remote."
+    },
+    "405": {
+        "query": "What were the opinions of the User Interface and Industrial designers regarding the attractiveness and appearance of the product, as well as the price and ease of use, during the evaluation of the prototype and discussion of functional requirements?",
+        "gold_documents": [
+            "ES2014d",
+            "IS1003b",
+            "IS1001d",
+            "TS3004b",
+            "IS1007d"
+        ],
+        "answer": "The User Interface team believed that the product incorporated fashion elements to attract buyers, as some buttons were shaped like cherries and had a spongy texture. They also mentioned a banana-shaped wireless phone that sold for over a hundred Euros, making their product's price of just 25 Euros very attractive to customers. The product would offer basic functions, with the option for users to pay more for additional features such as an LCD and speech recognition with a microphone. To make the product look fancy and meet different customers' needs, the team suggested offering it in multiple colors instead of just one standard grey. During a discussion about creating a new product that was both fashionable and easy for elderly users to use, the User Interface team emphasized the importance of ensuring better usability and making the remote control visually appealing. The Marketing team also suggested considering different colors or shapes for the remote control."
+    },
+    "406": {
+        "query": "Summarize the discussion on the disadvantages of ATLAS and other options and the opinions of C and F regarding these disadvantages.",
+        "gold_documents": [
+            "Bdb001"
+        ],
+        "answer": "The team discussed the use of different frameworks for the external file representation. While the team was familiar with Perl and preferred a flat file format due to its simplicity, the idea of using ATLAS was suggested. It was proposed to initially use ATLAS and evaluate its suitability before fully adopting it. The team also considered P files, but the concern was that they could become large. One team member, C, emphasized the importance of considering the learning curve of other options and believed that a flat file format works well for everyone. C suggested that Perl could be combined with external representations of ATLAS files to create a functional system. Additionally, C mentioned that exploring alternatives to P files could be interesting, despite the potential learning curve. Another team member, F, focused on dealing with prosodic features at the level of small linguistic units. F proposed attaching these features to words or segments, with the option of extracting smaller units. This approach would allow the team to build on their existing work without starting from scratch."
+    },
+    "407": {
+        "query": "What is the professor's opinion on the pragmatic overview of the project and can you summarize the discussion surrounding it?",
+        "gold_documents": [
+            "Bro008"
+        ],
+        "answer": "The team discussed potential improvements for their model, specifically focusing on MSG and multi-band. However, the professor acknowledged that the task was challenging and their current model was not yet suitable for a real system. Despite this, the team was enthusiastic about the Aurora data, which provided a more realistic scenario, and expressed their interest in continuing to explore the task. The professor emphasized the need for further work and encouraged the team to share any ideas they had for pursuing new directions. He suggested experimenting with MSG and multi-band himself and also recommended learning more about different acoustic environments."
+    },
+    "408": {
+        "query": "Why did User Interface propose using more buttons in the technical function design and what were the advantages of big thick keys? Additionally, what did the User Interface discuss about the shape of the button and what recommendations did the user interface designer make regarding the problem of having fewer buttons?",
+        "gold_documents": [
+            "IS1003b",
+            "IS1000b",
+            "TS3009b",
+            "TS3006c"
+        ],
+        "answer": "The User Interface team suggested reducing the number of buttons for DVD control compared to the current design, aiming to keep the maximum number of buttons within ten. Taking inspiration from mobile phones, they proposed using big thick keys for the remote control, which are popular among younger generations and create a less cluttered and more spacious look. The team agreed on a round shape for most buttons arranged in a triangle, with a square button in the middle and four buttons for channel and volume control. The industrial designer recommended incorporating multiple functions into one button using a switch menu, categorizing functions and linking them to specific menu categories."
+    },
+    "409": {
+        "query": "Why did the Industrial Designer disagree with Marketing and User Interface on various design aspects of the product?",
+        "gold_documents": [
+            "TS3009d",
+            "TS3012b",
+            "TS3006a"
+        ],
+        "answer": "The marketing team suggested that the remote control should have only one button and be compatible with Windows media center, allowing it to operate multiple devices simultaneously. However, the industrial designer disagreed, stating that additional buttons, such as play, fast forward, and stop, would be necessary for a video player. The industrial designer also proposed using titanium for a tough and stylish cover, appealing to older customers. They emphasized the importance of using real titanium instead of titanium-like plastic or compromising the LCD screen. The industrial designer also raised questions about the remote control's universality and programmability, suggesting the need for different modes to send out signals. They also considered the size of the remote, given the complexity of integrating various technical parts. Ultimately, the industrial designer proposed an integrated material approach to reduce costs."
+    },
+    "410": {
+        "query": "Why did the team have doubts about relying solely on speech recognition and eliminating buttons for the remote control? What challenges did they face in implementing speech recognition in the new remote controls?",
+        "gold_documents": [
+            "TS3003c",
+            "ES2005b",
+            "ES2012b",
+            "ES2005a"
+        ],
+        "answer": "Age group data for remote control use was not available, but it is acknowledged that many people may not want to learn how to use a new remote control. Despite this, certain buttons such as channel control, volume settings, and on/off are still necessary. The Industrial Designer raised concerns about the size and bulkiness of remote controls with too many buttons, while a small and slim design was deemed prone to being lost. The User Interface suggested a PDA or hand-held type of remote control, but this was deemed unfriendly in terms of unit price. Marketing expressed concerns about the cost and price implications of implementing voice recognition, arguing that the elderly would not find it user-friendly compared to an LCD screen. The Project Manager agreed with Marketing's opinion and prioritized the LCD screen over voice recognition. The Project Manager also noted the difficulty of implementing speech recognition in remotes due to noise interference, which was expensive to solve. However, the User Interface proposed a solution involving a signal-emitting device built into the TV and a microphone and transmitter on the remote control, utilizing subtractive cancellation of noise."
+    },
+    "411": {
+        "query": "Summarize the discussion on the TORRENT schedule, intermediate categorization, and the professor's opinion on the neural net.",
+        "gold_documents": [
+            "Bro027",
+            "Bro022"
+        ],
+        "answer": "The professor expressed his frustration with the constant delays in the TORRENT chip schedule. Grad F presented his proposal, focusing on the section on intermediate categories and suggesting the inclusion of features from these categories as a means of reducing error. The professor was particularly interested in understanding the impact of the neural net on older models that lacked pure features. While acknowledging the potential for improvement, he also cautioned against overusing nets."
+    },
+    "412": {
+        "query": "What were the key points discussed by the group regarding the style, design optimization, design goal, evaluation criteria, features, and use cases of the remote control?",
+        "gold_documents": [
+            "TS3003a",
+            "ES2012d",
+            "TS3007a",
+            "ES2004a",
+            "ES2006a"
+        ],
+        "answer": "The team discussed the integration of remote controls for different appliances into one, but Marketing raised concerns about the excessive number of buttons and suggested incorporating a menu display instead. The Project Manager and User Interface agreed, but insisted on keeping basic buttons as well. However, the idea of a flip top was rejected due to cost considerations. As a temporary solution, lightweight plastic was chosen as the material. The team aimed to create an original, trendy, user-friendly, durable, creative, and characteristic remote control that would be intuitive for users. They also determined the price, cost, and expected profit of the remote control. Creativity was emphasized, with the goal of introducing fashion into electronics without compromising functionality. Marketing emphasized the need for a fashionable, technologically innovative, easy-to-use, customer-friendly, uncomplicated, functional, and ergonomically-friendly remote control. The Project Manager agreed and added that it should be quick to learn how to use. User Interface highlighted the importance of channel switching and suggested keeping the remote control as basic as possible. Marketing proposed that the remote control should be multipurpose to compete with existing products. The Project Manager agreed to explore innovative use cases and suggested operating different devices such as TVs, video recorders, and DVD players with the remote control."
+    },
+    "413": {
+        "query": "Summarize the discussion on the appearance, materials, and desired features of the television remote.",
+        "gold_documents": [
+            "ES2009b",
+            "IS1009b",
+            "ES2005a"
+        ],
+        "answer": "The company recommends incorporating its corporate colors and design into the product, including the option for different colors like pink or banana yellow and fun shapes such as animals. They also discussed the idea of using buttons with various shapes, like triangles for volume and squares for channels. It was agreed upon that the text on the remote should be clear and the remote itself should be compact. \n\nDuring the discussion, the group realized that balancing the budget and maintaining quality would be challenging. To save costs without compromising user experience, the Project Manager decided to use high-quality recycled plastic as the material for the remote. However, they were willing to invest in a cutting-edge lithium battery for optimal performance.\n\nThe company's slogan and design target revolve around incorporating fashion into electronics. While the idea of providing user-customizable skins was rejected due to the amount of work involved, they decided to add the company logo on the boot-up screen and introduce a dormant mode. This was because most people prefer a non-flashing remote when the TV is on.\n\nThere were two main reasons behind these design choices. Firstly, the unit price of each remote control was relatively high, at twenty-five Euros. To justify this price point, the features of the remote had to be satisfying and of high quality. Secondly, there was competition in the market from other TV remote controls. Therefore, the new remote controls needed to be special and different in order to attract customers."
+    },
+    "414": {
+        "query": "What is the current status of the digits data and what additional assignments were proposed?",
+        "gold_documents": [
+            "Bmr016"
+        ],
+        "answer": "The test set of digits data, which is almost finished and spans two hours, is nearing completion. Currently, digit extraction has been carried out on approximately half of this data. Moving forward, there are plans to explore the reading of digits in various prosodic groupings as part of future work."
+    },
+    "415": {
+        "query": "Summarize the financing, financial targets, aims, target markets, and cost constraints of the new remote control project.",
+        "gold_documents": [
+            "TS3003a",
+            "IS1009d",
+            "TS3007a",
+            "IS1000a"
+        ],
+        "answer": "The remote control design includes a double-curved plastic case in special colors, with buttons made of rubber or wood in various forms and colors. The remote does not have a clock. The cost of the remote is within budget, excluding the voice recognizer, with only 4.30 euros remaining. The price of the remote is set at 25 euros, with a production cost of 12.5 euros. The company aims to sell at least 2 million units to achieve a profit goal of 50 million euros. The target market for the remote is international, covering different users, cultures, and trends. The remote will primarily be marketed in Europe and North America, and at least 4 million units need to be sold to meet the profit goals."
+    },
+    "416": {
+        "query": "Summarize the discussions and debates surrounding the government's response to Covid-19, including the delay, companies laying off workers, transparency of information, contact tracing apps, and eligibility for art funding.",
+        "gold_documents": [
+            "covid_6",
+            "covid_0",
+            "covid_5"
+        ],
+        "answer": "The Prime Minister responded to the opposition party's concerns by highlighting the government's swift implementation of the Canada Emergency Response Benefit and their support for small businesses through the Canada Emergency Business Account. However, the opposition party expressed dissatisfaction, believing that the government did not reach out to enough businesses. They also criticized the rigidity and difficulty of the rent relief program. The Prime Minister reiterated that the government's priority has always been to support workers in need and prevent job losses across all organizations and companies. The Minister of Canadian Heritage emphasized the government's commitment to transparency during the crisis, but the opposition party questioned the allocation of $35 billion in infrastructure funds, suspecting that it may have been used for personal salaries. The government assured that they have been actively exploring ways to enhance contact tracing capabilities in collaboration with provinces, territories, and volunteer organizations, while also addressing concerns raised by the Privacy Commissioner regarding privacy and ethical considerations. Additionally, the Minister of Canadian Heritage announced a funding of $500 million to support Canada's arts, sports, and cultural sectors, with further details to be released in the coming days."
+    },
+    "417": {
+        "query": "What were the team's decisions and solutions regarding the remote control's visibility, ease of finding, and prevention of loss during the discussion of technical issues, market interests, and the function of \"glow in the dark\"?",
+        "gold_documents": [
+            "IS1009a",
+            "ES2010c",
+            "TS3011b",
+            "IS1007c",
+            "ES2005b"
+        ],
+        "answer": "The team discussed various options for the remote control design. User Interface suggested a base station next to the TV, but it was deemed technically complicated and costly. Marketing proposed implementing an audio signal, which was ultimately adopted. There were debates about where to place the logo on the remote. Project Manager suggested printing it on a button, but User Interface was concerned about wear and tear. Industrial Designer suggested putting it on the back, but visibility was an issue. User Interface proposed a two-piece remote, but it didn't align with the cover design. Finally, it was agreed to leave a cut-out space on the latex covers to display the logo. The team decided on a beeping feature for when the remote gets lost and a fixed charger to prevent loss. Marketing suggested additional features like beeping or blinking lights when clapping, and a signal when in a dark spot. However, voice and clapping were deemed insufficient, and the team settled on glow-in-the-dark material combined with speech recognition for easy location. This choice was cost-effective and believed to boost market sales."
+    },
+    "418": {
+        "query": "Summarize the discussion and opinions on choosing a stylish fruit for remote design.",
+        "gold_documents": [
+            "IS1001c"
+        ],
+        "answer": "The market research conducted by the Marketing department suggested that the ideal design for the remote should be spongy and resemble a fruit or vegetable. After considering options like banana, apple, and pear, the banana was chosen due to its appealing color and recognizable shape. The Marketing team believed that the current trend of incorporating fruits and vegetables into fashion in Milan and Paris indicated that a remote with a similar style would be both fashionable and technologically innovative. They also considered the pear as a potential shape for the remote, as it is easy to hold and preferred a spongy material for its durability. The Project Manager supported the use of spongy material and prioritized the inclusion of a wheel, as it would set their remote apart from competitors. Additionally, the Project Manager agreed that the banana would be a suitable choice due to its ease of identification."
+    },
+    "419": {
+        "query": "What is the final conclusion on the discussion about the criteria of ease of use, learnability, and intuitiveness when evaluating the product?",
+        "gold_documents": [
+            "ES2006d",
+            "TS3004d"
+        ],
+        "answer": "The Project Manager and Industrial Designer had a discussion about the second layer of the remote, with the Project Manager expressing concerns about its complexity, but the Industrial Designer reassured that users wouldn't need to pay much attention to it. The group unanimously agreed that the scroll wheel was superior to average remotes, giving it a score of two on this criterion. They also agreed that the remote scored highly in terms of locatability, initially assuming it would be intuitive. However, the Industrial Designer mentioned that it might take some time for people to get used to the scroll wheel as it was a new technology. The Marketing team believed that its usage was obvious. As a result, the group decided to give an average score of five for this criterion."
+    },
+    "420": {
+        "query": "What were the professor's thoughts on latencies, VAD latency, and the breakdown of latency?",
+        "gold_documents": [
+            "Bro014",
+            "Bro027",
+            "Bro010"
+        ],
+        "answer": "The professor expressed satisfaction with the improved model, attributing it to lower latencies. He believed that the effort put into developing a good Voice Activity Detection (VAD) was worthwhile. In order to determine the latency added by the VAD, the professor suggested running the process in parallel. Additionally, the professor informed the team that the maximum latency was still unknown. PhD C provided an explanation of the delays caused by various factors, including a 100ms delay from silence probabilities, a 40ms delay from delta at the input, and a 10ms delay from LDA filters. The professor criticized the insistence on using a flawed system and emphasized the need for straightforward solutions. He emphasized the importance of keeping the lag short for the task at hand."
+    },
+    "421": {
+        "query": "Why was the concept of an intelligent controller proposed by the user interface designer and disapproved by the project manager?",
+        "gold_documents": [
+            "IS1003c"
+        ],
+        "answer": "The user interface designer proposed incorporating speech recognition and gesture recognition technologies into the controller for convenience and to differentiate it from traditional controllers. However, the project manager raised concerns about the reliability of these features and the potential increase in cost. The designer suggested collaborating with a research institute to address these issues, as the vocabulary would be limited and language adaptations could be made for international users. Despite these solutions, there were still unresolved problems with the necessary microphone and camera for the technologies."
+    },
+    "422": {
+        "query": "What are the future prospects for data collection?",
+        "gold_documents": [
+            "Bmr005",
+            "Bed017"
+        ],
+        "answer": "In the second phase of data collection, the group plans to use more complex scenarios to generate intricate dialogues. To ensure an adequate number of participants, subjects will be recruited from within the Psychology department, as their participation in experiments is mandatory. The group's goal is to collect over 100 hours of Meeting Recorder data, and they are currently revising the speaker consent forms. It has been proposed that subjects should sign a new consent form after every 10 recording sessions."
+    },
+    "423": {
+        "query": "Summarize the main points discussed in Marketing's presentation during the last meeting and the group's feedback on it.",
+        "gold_documents": [
+            "IS1009d",
+            "TS3003d",
+            "TS3009c",
+            "IS1007b",
+            "ES2007b",
+            "ES2007c"
+        ],
+        "answer": "The remote control should not only be small, easy to use, and eye-catching, but also have buttons with a soft feel and a trendy design, possibly incorporating fruit and vegetable elements. Marketing suggested incorporating one or two star features, such as speech recognition, to build the campaign around. The energy source for the remote should be a battery, and it was emphasized that the remote should be brought to the market before the competition. Marketing emphasized the importance of adopting the latest trends and fashion updates for the remote control, particularly for the targeted young users. This includes features like an LCD screen, vivid colors, and a cool shape. However, it was noted that the decisions made regarding the interface did not align with the desired look and feel. The team discussed the possibility of incorporating Bluetooth functionality, but ultimately decided against it. They also explored the idea of using squeezable rubber as an energy generator. Easy usability was another key point raised by Marketing, who suggested incorporating fruit-shaped buttons to align with the upcoming fashion trend. The Project Manager proposed marketing the control in different colors for different groups of people, similar to the iPod. During the evaluation process, Marketing expressed dissent regarding the financial aspects of the design, highlighting the need for further adjustments during budget control. The lack of information about prices led to unrealistic discussions about costly functions like recognition. Marketing believed that users would be interested in a speech recognizer to simplify program selection and reduce the number of buttons. The remote control should also be small and affordable. The team briefly considered lighting adapting options but ultimately left the decision to the Industrial Designer and User Interface designer. The team also discussed potential user-friendly features, including tracking devices to recognize personal preferences and a voice activator to help locate the remote. However, due to budget constraints, these ideas were set aside. The Industrial Designer mentioned the importance of considering repetitive strain injury (RSI) in the ergonomic design process and suggested using touch buttons instead of press buttons to mitigate this issue."
+    },
+    "424": {
+        "query": "What were Barry Hughes' thoughts on the legal framework, infrastructure of out-of-court disposals, targets for performance measures, and the registration of grandparents in relation to the childcare offer?",
+        "gold_documents": [
+            "education_22",
+            "education_13"
+        ],
+        "answer": "Barry Hughes believed that implementing a clear legal framework would provide clarity for parents and professionals, but there was confusion and ambiguity when it came to prosecution, leading to some cases falling into grey areas. He also suggested that the infrastructure for out-of-court disposals could be developed by the Welsh Government, the police, and crime commissioners. Barry clarified that they did not have specific targets for prosecution, but only pursued cases with reasonable prospects. Similarly, the police no longer had targets, except for certain individuals. Huw Irranca-Davies emphasized the focus on registered licensed providers for the childcare offer, aiming for higher quality and a broader range of services compared to individual childcare. However, it was noted that some grandparents who were registered, licensed, and inspected also cared for their grandchildren and other children in small groups."
+    },
+    "425": {
+        "query": "What were the Project Manager's thoughts on the conceptual design, symbol and colour, special button design for game players, shape, appearance, and buttons of the new remote control during the discussion?",
+        "gold_documents": [
+            "ES2003a",
+            "TS3004a",
+            "TS3004c",
+            "ES2009a",
+            "ES2014b"
+        ],
+        "answer": "The group discussed pricing the remote control at 25 euros, which was considered relatively high compared to existing options. To avoid losing potential consumers, the Project Manager decided to position the product as a universal remote control with unique features to attract more consumers and meet profit expectations. User Interface suggested designing symbols and colors for the remote, but the Project Manager emphasized the need to incorporate their own logo and color scheme. Marketing proposed self-intuitive buttons for game players, with Industrial Designer preferring a game control keypad over separate buttons. The Project Manager agreed, as keypads were common and user-friendly, allowing for easier navigation and joystick functionality. The shape of the remote was debated, with Marketing and User Interface suggesting an iPod square or a more innovative round shape. The Project Manager opted for a round shape with rounded corners to promote innovation. The idea of a multifunctional remote control was met with concerns about size and complexity. To address this, a touch screen remote control was proposed as a feasible solution."
+    },
+    "426": {
+        "query": "What were the reasons for Marketing's disagreement with the Project Manager and Industrial Design regarding the technical functions, advanced techniques, and touch screen of the new remote control, considering the budget limitations?",
+        "gold_documents": [
+            "TS3008b",
+            "ES2009c",
+            "TS3005a",
+            "TS3004a"
+        ],
+        "answer": "The Project Manager recognized the importance of targeting customers below the age of forty, as they have specific needs that should be addressed. However, Marketing disagreed and suggested that the project should cater to a larger group of people, rather than just those under forty. The Industrial Design team proposed incorporating advanced techniques, such as a touchscreen, to make the remote control more unique. Despite the advantages of a touchscreen, such as making the remote control smaller and easier to use, Marketing rejected the idea due to budget constraints. In order to balance cost and functionality, the Project Manager suggested giving up voice recognition and keeping the touchscreen. However, Marketing's research showed that interviewees had a strong preference for voice recognition, even when they were not informed about the touchscreen. Therefore, Marketing insisted on keeping voice recognition to cater to popular demand. The Industrial Designer believed that it was impossible to create a universal remote control that could accommodate different TV brands, as each brand has its own remote control. However, Marketing believed that this issue could be solved by developing a universal remote control with a code."
+    },
+    "427": {
+        "query": "What was the final decision regarding the chip, feasibility of letting the user program the keys, and fulfilling user requirements?",
+        "gold_documents": [
+            "ES2015c",
+            "IS1003c",
+            "IS1000c"
+        ],
+        "answer": "The group made a decision to use a regular-style chip without an LCD display for the controller, opting for simple push buttons with the exception of a more advanced button for the interior lighting system. Concerns were raised by the industrial designer regarding the usability of the function, as it went against the product requirements. The user interface designer suggested that the usability would depend on the user's effort, leading to the decision to produce two versions of the controller - one with full user freedom and the other with some constraints. In order to meet the requirements of being fashionable and spongy, the group agreed to use wood and rubber for the controller. The buttons, which would be the part touched by users, would be made of rubber, while the rest of the controller would be made of wood to provide a natural feel."
+    },
+    "428": {
+        "query": "Summarize the discussion on the features, functions, evaluation criteria, and usability of the remote control, as well as the functional features to include.",
+        "gold_documents": [
+            "IS1001c",
+            "TS3005d",
+            "TS3011a",
+            "ES2014a",
+            "TS3004c"
+        ],
+        "answer": "The group reached a consensus on the features of the new remote control, including the use of normal batteries, a scroll wheel with rubber buttons and backlights, a round shape, and speech recognition with an advanced chip. They decided to forgo an LCD display due to cost constraints. Marketing initially suggested developing a multi-functional remote control that could control various appliances, but ultimately decided to design it solely for television use. The Industrial Designer emphasized the importance of a modern remote control being able to control a diverse range of equipment, which was agreed upon by the User Interface team. The group evaluated the remote control design based on user requirements and received a satisfactory average score of two. Marketing raised concerns about the ease of finding all the buttons, particularly the options button, while the Industrial Designer believed all the buttons were easier to find than a regular remote control. The team discussed the inclusion of a standard wheel, despite its higher cost, and debated whether to include a motion-activated light or continuous light."
+    },
+    "429": {
+        "query": "Summarize the discussion about electronics, the segment, the results from the experiments, and the topic of intentionality.",
+        "gold_documents": [
+            "Bmr003",
+            "Bed003",
+            "Bro005",
+            "Bed017"
+        ],
+        "answer": "The team discussed the best approach for incorporating the recording infrastructure in the room, considering options such as placing tapes in the lip of the table and using LEDs to indicate when the channel is live. Power issues were also a topic of discussion. In terms of representing the Bayes-net, an alternative approach was proposed that depicts context features as classes and their dependencies as relations. This model allows for instantiations of classes, which aligns better with the research objectives compared to the extended belief-net. Recent experiments revealed that adding more languages had a detrimental effect on model performance. However, it was noted that any form of normalization had a positive impact, while MSG had no effect. A demonstration was given on the structure and function of a toy version of the belief-net for the intentionality task. The feature nodes included prosody, discourse, verb choice, the \"landmark-iness\" of a building, time of day, and whether the admission fee was discussed."
+    },
+    "430": {
+        "query": "Summarize the discussion on trend watching, appearance design, and product components, as well as the project manager's opinions towards product appearance.",
+        "gold_documents": [
+            "IS1003b",
+            "IS1002c",
+            "IS1003d",
+            "IS1006c"
+        ],
+        "answer": "The marketing team highlighted three important trends: the desire for fancy and identifiable products, the need for technological innovation, and the importance of ease of use. Additionally, they noted that fruit and vegetable themes were popular, and the idea of a spongy texture was well-received. The group agreed that the remote control should resemble fruit and vegetables in shape and color, but the specific design was not yet determined. The industrial designer proposed two options: a titanium material with a fruity scent or a spongy and fruity-like material. However, the project manager stated that they couldn't have both options and suggested painting the controller to mimic titanium instead. The final decision was not made. The user interface designer suggested a red and yellow color scheme and two basic shapes, a circle and a triangle, referred to as the mushroom design. However, the marketing team disagreed with the mushroom design and decided to change it to a pineapple shape. The group decided to produce a mid-sized remote control with various components such as a printed circuit board, chip, transistor, scroll wheel, power cradle, locator, radio transmitter, antenna, speaker, double curves, LEDs, and buttons. The casing material would be a combination of rubber and plastic. Based on previous experiments and questionnaires, the marketing team found that most users considered remote controls to be ugly. Therefore, the group aimed to create a fancy-looking product to justify a higher price. However, determining what constitutes \"fancy\" was challenging due to differing opinions. The project manager agreed that the product should be visually appealing but cautioned against using too many colors to avoid increasing costs. Additionally, the project manager suggested incorporating an image that represents society on the remote control for easy recognition."
+    },
+    "431": {
+        "query": "What were the group's thoughts on the safety design, kinetic battery idea, wood case, and shape of the remote control during their discussion on the design and concept decisions?",
+        "gold_documents": [
+            "ES2006c",
+            "ES2008c",
+            "IS1007d",
+            "IS1006a"
+        ],
+        "answer": "The team reached a consensus that the remote control should have a waterproof design and be baby-proof to prevent any accidents. It was also agreed that the remote should have voice control functionality for children who may not be tall enough to operate it manually. Additionally, a child lock feature was deemed necessary. The group acknowledged the benefits of using a kinetic battery, but cost and reliability were concerns compared to a regular battery. They suggested using a cheaper chip to balance out the cost of the kinetic battery technology. The User Interface team expressed difficulty in keeping the remote small with a wood case, as the Industrial Designer believed it would be prone to breakage. The Project Manager proposed using rubber or plastic instead, considering practicality and ease of cleaning. The idea of creating fruit or vegetable-shaped remotes was discussed, with the understanding that only the exterior shape would change while the PCB remained the same. The team also considered offering customers customizable skins."
+    },
+    "432": {
+        "query": "What are the current thoughts on using XML tools and the status of transcription?",
+        "gold_documents": [
+            "Bmr025",
+            "Bed008",
+            "Bmr011",
+            "Bmr016",
+            "Bmr010"
+        ],
+        "answer": "Summary:\nGrad H mentioned that they were working on standardizing data in XML format, but expressed dissatisfaction with the current format. They were also developing tools to extract information from XML files using Java and Perl. The transcriber pool has been meeting expectations in terms of work completed within the allocated time. Grad D explained the importance of combining different experts in the network to adapt to various situations, suggesting dividing the network into parts and allowing it to determine which experts to trust in each situation. The transcriber pool is making good progress and may be utilized for other coding tasks in the future, such as analyzing speaker overlap. They are also coding non-speech gestures like breaths and laughter to improve recognition results. The group reviewed transcription checking procedures and discussed coordinating data channelization and presegmentation with tighter time bins."
+    },
+    "433": {
+        "query": "Summarize the discussion on the problems, solutions, and ideas about recording data and the current status of the recordings.",
+        "gold_documents": [
+            "Bmr015",
+            "Bmr006"
+        ],
+        "answer": "To ensure accuracy, a small percentage of transcripts will be modified to correct any misread or uncorrected digits. In order to establish consistent links between speakers and their corresponding identification tags, a speaker database will be compiled. The initial test set of digits has been completed, consisting of 4,000 lines with each line containing 1-10 digits. To explore different prosodic groupings of numbers, new digit forms were distributed. The group also discussed new naming conventions to facilitate the sorting process. In order to standardize file names, existing files will be modified to have equal lengths. Similar changes will be made to speaker identification tags. Additionally, files will include information specifying the channel, microphone, and broadcaster details. PhD F suggested recording different meetings with the same group to aid in tasks like summarization, while Professor D advocated for random meeting participants to ensure diversity for acoustical research purposes."
+    },
+    "434": {
+        "query": "Which groups were thanked for their efforts and discussed as being heavily impacted?",
+        "gold_documents": [
+            "covid_1",
+            "covid_9"
+        ],
+        "answer": "In recognition of their life-saving efforts during the ongoing pandemic, essential workers were thanked, particularly during Paramedic Services Week. Additionally, members voiced their support for various marginalized groups, including advocating for aboriginals facing police brutality, students experiencing disrupted education, indigenous and rural residents lacking internet access, and the Black Lives Matter movement."
+    },
+    "435": {
+        "query": "Summarize the difficulties faced by secondary schools in carrying out curriculum reform, the opinions on support or changes of circumstances, the stress faced by the oil and gas industry, and the discussion about restoring Canadian businesses during the pandemic. Additionally, provide insights on the perspectives of Heather McPherson and Chrystia Freeland on restoring Canadian businesses during the pandemic.",
+        "gold_documents": [
+            "covid_4",
+            "covid_10",
+            "education_2",
+            "education_3"
+        ],
+        "answer": "Despite some primary schools having surplus funds, many secondary schools are facing deficits and a lack of funds. Additionally, there is a shortage of teachers with appropriate training. Concerns arise regarding the ability of lower-tier schools to adapt to the new curriculum and improve teaching quality. The approach to students has not changed, but individual circumstances may require adjustments from the Student Loans Company. Challenges in service delivery may arise due to staff shortages caused by illness, self-isolation, or adherence to social-distancing measures. Early monitoring was implemented due to the presence of campuses and activities in China and Southeast Asia. The oil and gas industry has been heavily impacted by anti-oil and gas lobby groups, resulting in the introduction of bills that restrict major projects and oil shipping. These actions have caused a significant decline in investment and a recession in the Alberta economy. Members express concerns about the government's handling of pandemic-related restrictions, particularly in relation to reopening businesses and providing effective stimulus. They emphasize the need to reopen fishing, restore agricultural supply chains, and support farmers. Questions are raised about the government's response to outbreaks in meat-packing plants and the provision of financial support to workers in unsafe conditions. The government is also questioned about providing pandemic relief funds to businesses utilizing tax havens. Hon. Chrystia Freeland acknowledges the hard work of farmers and emphasizes the importance of a safe working environment, trusting the Food Inspection Agency to regulate conditions."
+    }
+}

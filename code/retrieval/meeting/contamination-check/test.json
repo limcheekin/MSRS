@@ -1,0 +1,526 @@
+[
+    {
+        "Query": "What were the changes needed according to the group and the Professor's opinion on the use of English in the discussion about IBM computers and data collection participants?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on the value for user and situation models, including their thoughts on the user budget.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the discussions about the uncertainty of the Canadian economy and the government's actions during the special period, and what were the opinions of Cathy McLeod, Mona Fortier, and Mr. Gabriel Ste-Marie on these matters?",
+        "Article": ""
+    },
+    {
+        "Query": "What characteristics of the tiger did the industrial manager consider worthy of studying for the product design?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the team's comments on the transcriber interface and alternative transcription tools?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the presentations on components design, market findings, conceptual specifications of user interface components, properties and materials, trend watching, interface contents, remote components, and market trends.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion about the early implementer areas and the lessons that can be learned from them.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the Project Manager's thoughts on speech recognition, technology, voice recognition, cost constraints, LCD incorporation, and button design when discussing the product's features?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the team's discussions and decisions regarding recording conventions and incorporating video recordings?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on project finance and the use of the drawing board.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the thoughts of the Industrial Designer and the Project Manager during the project discussions, and what conclusions did the Project Manager draw from the team presentations?",
+        "Article": ""
+    },
+    {
+        "Query": "Describe the team's decision-making process regarding the base of the remote, their evaluation of its fashionability, and their discussion on the pros and cons of existing remotes.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on the possible environmental-friendly material, current trend, potential materials, LSD screen, color, spongy material, material and function issue, and questionnaire.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the introduction of the remote control prototype by the Project Manager, User Interface, and Industrial Designer, the group's views on multi-functional and single-functional product, the reasons for giving lower grades in the technological aspect, and the consideration of the locator in presenting the functional requirements.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the agreement between PhD A and PhD C regarding the variance, the discussion with Jose, and the problems and difficulties faced due to overlaps.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on latency in the system and explain why the professor had an issue with it. Additionally, provide information on the duration of the latency.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the introduced features and advantages of the detailed design of the prototype by User Interface?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the presentation, discussion, and conclusion on the prototype model, including the appearance and two versions of the prototype.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the group's discussions regarding the touch screen, flip screens, battery issues, and flip top design of the new product, considering the budget limitations and general functionalities?",
+        "Article": ""
+    },
+    {
+        "Query": "What lessons is the Government taking from the three-year investment in Schools Challenge Cymru and how is the program progressing?",
+        "Article": ""
+    },
+    {
+        "Query": "What is Dr. David Blaney's opinion on the impact of Brexit on Wales' higher education system, including the drop in EU students applying to study in Wales and the reasons why prospective students should choose to study in Wales?",
+        "Article": ""
+    },
+    {
+        "Query": "Can you provide a description of the domains in the mental spaces and explain how the middle layer would function?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the professor's thoughts on the back-end and storing data?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussions on the seniors care crisis, the relationship between racism and long-term care in government's policy, amendments to policies on protecting workers' and pensioners' rights, Hon. Lawrence MacAulay's perspective on the public debate about policies and programs affecting veterans and their families, and the Minister of Seniors' statement on pandemic assistance for seniors.",
+        "Article": ""
+    },
+    {
+        "Query": "Why did the Project Manager, Marketing, and Industrial Designer have disagreements when discussing the design of the remote control, including parental control, shape, color, front buttons, wireless control, technical design, and style?",
+        "Article": ""
+    },
+    {
+        "Query": "How did Marketing design the product evaluation and what specific criteria did they bring forward?",
+        "Article": ""
+    },
+    {
+        "Query": "What is the current status of transcription, recordings, and intermediate categories in relation to the SPG schema?",
+        "Article": ""
+    },
+    {
+        "Query": "How did the Deputy Minister address her amendments in different groups regarding the duty to promote public awareness, report on the effect of the legislation, and regulation-making powers in the Bill?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on long-term trends in raising standards and improving educational attainment, the role of Qualification Wales according to Philip Blaker, and ideas about timescales for addressing the lack of exams.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on the challenges of implementing good practice across all parts of Wales and the implications for childcare services.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion and availability of actual components, including the case material and interface design.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the professor's thoughts on the final model and the discussion on time series, reverberation, and pronouncing zero.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group discussion and decisions on the introduction of the new remote control project, including the concept decisions, the universal remote, parental control, games, and voice recognition.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion and Vaughan Gething's elaboration on the evaluations of increasing suicide crimes during COVID-19 and the long-term special care for pregnant women.",
+        "Article": ""
+    },
+    {
+        "Query": "When will the implementation work be finished and what is their opinion on the risk of losing focus? Also, what were their thoughts on making improvements that present more of a challenge? Lastly, what was discussed in the meeting regarding networking within the PRU and the transition arrangements?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the group's thoughts on the infra-red functionality and disposable income when discussing general requirements?",
+        "Article": ""
+    },
+    {
+        "Query": "What is the group's opinion on the effectiveness of using eligibility for free school meals as a measure? How do they evaluate the impact of PDG on attendance and engagement for children receiving free school meals?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the professor's thoughts on support vector machines and speech rate algorithms for speech recognition?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the professor's opinion on echoes, reverberation, and acoustic events.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's discussion and decision on the user interface design of the remote control.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the project manager's thoughts on the plastic material, changeable cover, color, and shape of the model during the product evaluation and discussion of product requirements?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on fixing the system and improvements on the baseline.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on legislation, sports infrastructural construction, government support for energy resources and tourism, funding in green economy and small businesses, and the impact of Covid-19 on fishing, tourism, oil, and gas.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on the design and functionality of the remote control, including the team's opinion on the number of functions, the decision to change the shape, the choice of a single-curved design, the idea of personalization, the feasibility of personalization, the team's opinion on a novel shape, and the final decision on the casing shape.",
+        "Article": ""
+    },
+    {
+        "Query": "What was the reason behind the marketing team's proposal for different colors, specifically lemon or lime, for the product and how does it relate to the market trend?",
+        "Article": ""
+    },
+    {
+        "Query": "What is the overall conclusion regarding the remote control style, market research, adjustments, and the minimization of repetitive strain injury in the simulation market evaluation of the new remote control considering the new project requirements?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the assessments on the future of institutions, discussions on women's issues, committee's statements on housing, and members' discussions.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on the recordings of meeting digits.",
+        "Article": ""
+    },
+    {
+        "Query": "What are the reasons for recommending a speech recognition interface and what are the benefits of this feature according to User Interface, Marketing, the industrial designer, and the user interface designer?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on the work of consortia, including attitudes, opinions, and the role of regional consortia and Cabinet Secretary. Also, include the statements made by Jassa Scott about the work of regional consortia and the comments on the Auditor General. Additionally, summarize Bill Blair's response to the firearms seizure issue at Pearson airport and the measures proposed for ensuring social stability. Finally, provide an overview of the political background and the aim of the group.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's discussion on the functions of the remote, including the realization of the lost-and-found function, improvements discussed during project evaluation, and new functions brainstormed.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the group's thoughts on the special colors of the buttons during the discussion about finance, and why was Marketing dissatisfied with the changes made to the buttons?",
+        "Article": ""
+    },
+    {
+        "Query": "What are the key points discussed regarding the implementation of the Welsh dimension, employers' understanding of the Welsh bac, and the benefits of having an independent body for inspecting in Wales?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's opinion on the convenience of presentation materials and their discussion on its use convenience.",
+        "Article": ""
+    },
+    {
+        "Query": "Why did the team decide against using LCD displays when discussing interface controls, scroll wheels, and remote concepts?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's self-introduction, project introduction, brainstorming process, project evaluation, and project process.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the team's thoughts on adding rechargeable units to the device during the discussion on extra designs or gadgets to make the remote control special?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the decision made regarding the procedures and nonuniformity of microphones.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the statements made by Meilyr Rowlands and Kirsty Williams AM regarding the challenges faced by secondary schools, methods to ensure safety, support for students with emotional and mental health difficulties, and studying from home?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the Industrial Designer's thoughts on the design, style, and functions of the new spherical remote control during the detailed design discussion?",
+        "Article": ""
+    },
+    {
+        "Query": "What is the group's opinion on the existing problem of Erasmus and the mobility funding for students? Additionally, what is their stance on the question of whether students should be refunded some of their tuition fees?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the meeting discussions on local authoritative frameworks, condolences, employment, workers' safety, and pay dispute situations.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the reasons for expressing thanks to the House of Commons and the members of the Canadian Armed Forces today from Whitehorse?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on the functions, characters, and design requirements of a remote control, including the prioritized functional requirement and the scroll feature.",
+        "Article": ""
+    },
+    {
+        "Query": "What are the main topics of discussion and plans for the upcoming team meeting, including Marketing's thoughts on repetitive strain injury and the group's reflection on previous meetings and progress?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the findings of the lab tests regarding the design of buttons? What were the group's discussions about the finder button and call button? What were the group's discussions about the details of button design and location function? What did the team agree on regarding the lighting adaptive options when discussing the presentation that connected the project with market interests?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's thoughts on DAT, power cables, and capturing subject intention, as well as the approaches considered for the analysis.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group discussion on the general specification and case design, including the decision on changeable cases, and any discussion about changes in the current design.",
+        "Article": ""
+    },
+    {
+        "Query": "What were Huw David's views on the unintended consequences of this Bill, the need for legislation in light of changing natural behavior and culture, and whether it should be explicitly stated in the Bill?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the group's thoughts on the design and functionality of the two-sided remote control, including its evaluation, market range, and technical requirements such as water-proof and shock-proof capabilities?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussions and opinions on the amendments in group 3 regarding the regulation-making powers in the Bill, including Suzy Davies' views on amendment 3A.",
+        "Article": ""
+    },
+    {
+        "Query": "How does Brexit impact the fee and access plans of higher institutions in Wales, and what measures do executives take to ensure effective planning for Brexit, including protecting students' interests? Additionally, summarize the questioning about the local production of surgical masks, protective gowns, and N95 masks, and provide an update on the status of projects awaiting government approval from the provinces in Canada.",
+        "Article": ""
+    },
+    {
+        "Query": "What are the key points regarding the role of the middle tier and government support for the elderly and vulnerable people in Canada?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the marketing expert's opinions and perspective on user identification and the product.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the main points discussed in the meeting regarding the universal adoption, advantages, and weaknesses of the Act?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion and presentation on the evaluation criteria.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the participants' opinions on using CD's for backup, the discussion on probability computation, and the experimental setup of the computer navigation system.",
+        "Article": ""
+    },
+    {
+        "Query": "Why did the group decide against positioning symmetrical buttons on both sides and what was the team's opinion on the Project Manager's suggestion of creating a right- and left-handed remote during the prototype presentation?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on the cost reduction, abandonment of certain features, and reduction of production costs.",
+        "Article": ""
+    },
+    {
+        "Query": "What are the pros and cons of voice recognition discussed in the group?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on battery options, including the Industrial Designer's opinion on general requirements, benefits and drawbacks, conservation of battery life, triple A batteries, and the decision on battery type for the design. Also, explain why the Industrial Designer recommended a charger instead of a battery for the industrial working design.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the reasons for including the project in a conference paper?",
+        "Article": ""
+    },
+    {
+        "Query": "What were Kirsty Williams' thoughts on the funding allocated to the consortia? How did Kirsty Williams AM react to concerns regarding university governance? How did Kirsty Williams respond to university mergers? What were the discussions within the group regarding admission problems in Wales universities and the proposed solutions?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's discussion, evaluation, and decision on the energy source, technological innovation, and overall evaluation of the remote.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the group's discussions regarding technical issues, energy source, project announcement email, and the sample sensor?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the key points discussed and problems reviewed in the last meeting.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the concerns of Hefin David AM and Huw Irranca-Davies regarding the fee, access plans, affordability for lowest-income working families, pilots in Cardiff and Newport, and the qualification and quality of the workforce while maintaining the rate at \u00a34.50.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on on-line and phase normalization, and the opinion of PhD C and the professor on phase normalization and quals.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on detecting important linguistic features, looking at feature streams, the advantage of using Noisy-ORs, and the inclusion in the transcription formalization.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussions on system involvement in demos, backups and collecting notes with meetings, Switchboard, and scheduling meetings going forward. Also, include the professor's opinion on scheduling meetings going forward.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion about the issues with HMRC and the decision made regarding them, including Julie Morgan's perspective.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the professor's comments on the workshop, the team's feedback on the person in Grenada, the required elements in the new form arrangement, the suggested structure of the belief net, and Grad B's opinion on the belief net structure?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the opinions of Grad E and Grad A regarding the goals and outcomes of their respective experiments?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the User Interface's opinions and the final decision on the design of the remote control, including the consideration of radio wave interference and the use of the extra budget.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the professor's thoughts on the effect of noise on speech frequencies, noise addition, smoothing, FIR filters, and dealing with additive noise.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on the function and object of the remote control, including the kinetic function and the ability to roll through the user's favorite channels.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's proposed design for implementing demographic marketing strategies and the agreement between Industrial Design and Marketing on the appearance design presentations. Also, include the Industrial Designer's proposal for the product's marketing plan and the marketing's opinion on the marketable aspect of the product design.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the opinions of Grad G and the professor on capturing the subject intention, MSG, pronouncing zero, and hiring Fey?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the Industrial Designer's thoughts on the appearance design, technology of speech recognition, and the use of Bluetooth and other new technologies when discussing the design and functions of the remote control for children?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussions on the priority of inspections, the reopening of the House of Commons in relation to Canada's diplomatic relations, and the allocation of funds and addressing systematic racism. What were Jassa Scott and Janet Finch-Saunders' agreement on the priority of inspections? What did Justin Trudeau elaborate on the governmental fund and his thoughts on the revolution in national institutions when discussing the allocation of funds and addressing systematic racism?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on the technical and functional designs, prototype presentation, detailed design, and specific designing requirements of the remote control.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's discussion and evaluation of the project's process, work division, and production plan.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on future directions, the explanation of the multilingual model by PhD D, the discussion between PhD C and the professor about multiple languages, and the discussion about releasing meeting data and allowing people to cut things out.",
+        "Article": ""
+    },
+    {
+        "Query": "Can you explain the meaning behind Ms. Jenny Kwan's statement about the gap between program development and its implementation?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the Project Manager's views on the last meeting review and market research? How did the Project Manager perceive their presentation contents when reflecting on the meetings and project progress? Why did the group have a different opinion than the Project Manager when reflecting on the previous meetings and project progress? What were the group's thoughts on using a panther as a drawing?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the team's thoughts on the various features of the remote control, such as the buttons for multiple operations, the presence of an LCD screen, the microphone position, and the push-buttons in relation to the key concepts of the remote control?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the challenges faced by the tourism industry in Canada and what measures did the government take to mitigate the impact?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the presentation, discussion, and decision on the design, energy source, components, functional design, and prototype of the remote control.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the decision made on DARPA, the contents of the paper, and the statistics included in the paper.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the group's agreement on training and testing the digits corpus, the current technique and its limitations, their progress, and the delays?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the advantages of \"triple R\" over \"triple RC\" in the discussion on the product's name? Also, what was the conclusion regarding the target age group and the reasons behind it? Additionally, why did the marketing team decide to target young people? Lastly, summarize the discussion on the selection of channels.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's discussion on market research, desired features, design opinions, and the necessity of revolution in remote control interaction.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the key points discussed by Kirsty Williams AM regarding her plan for quality assurance, Bethan Owen's comment on the high-risk category, the five principles explained by Kirsty Williams AM, the expectations for new examinations and school qualifications, and Kirsty Williams' response to doubts about the sufficiency of their actions?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the team's likes and dislikes when evaluating the entire production process?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on mean subtraction in SRI experiments.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion on mixed signals, VAD improvements, VAD results, opinions of postdoc A on new headphones, alternative methods to increase space, and the deadline.",
+        "Article": ""
+    },
+    {
+        "Query": "How do special schools fit into the new purpose arrangement and what is their role in relation to schools with PDG for looked-after children compared to the regional consortia?",
+        "Article": ""
+    },
+    {
+        "Query": "How was the prototype of the remote control introduced by User Interface, Industrial Designer, and Project Manager, and what details were discussed about making it universal?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the Industrial Designer's comments on the appearance, structure, and customer preferences during the discussion about the design and evaluation of the prototype?",
+        "Article": ""
+    },
+    {
+        "Query": "Can you provide an overview of the allocation of the $75 million towards addressing sexual exploitation and human trafficking, the solution to risk appetite, and Hon. Chrystia Freeland's perspective on systemic racism?",
+        "Article": ""
+    },
+    {
+        "Query": "What is the current status and any recent changes to the segmenter?",
+        "Article": ""
+    },
+    {
+        "Query": "Why did the User Interface and Industrial Designer disagree on the price during the interactive evaluation, considering the user requirements and hot trends? Additionally, why did the User Interface disagree on the redesign after product evaluation? Furthermore, why did the User Interface suggest yellow and red as the basic colors for the product appearance? Lastly, why did the marketing team disagree with the User Interface designer on the shape of the product during the discussion of product appearance?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the opinions of Kay Martin, Dafydd Evans, and Nick Brazil on how effectively the Welsh bac prepares learners for employment.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the team's additional ideas and presentations on the function and working design.",
+        "Article": ""
+    },
+    {
+        "Query": "What were the Project Manager's thoughts on the market range, price issues, and target groups of the remote control? Additionally, what were their thoughts on the new remote control features proposed by Marketing, the feasibility of the multipurpose remote control, the cost constraints and financial targets of the project, the necessity of setting the selling target, and the target market group when discussing details on the new remote control style and the plan for the next meeting?",
+        "Article": ""
+    },
+    {
+        "Query": "What were User Interface's thoughts on the cost constraints, financial targets, and replacement of kinetic batteries in the new remote control project?",
+        "Article": ""
+    },
+    {
+        "Query": "Why did Marketing and the Industrial Designer have disagreements regarding future product ideas, including the use of kinetic energy and the decision to make the product upgradable?",
+        "Article": ""
+    },
+    {
+        "Query": "What were the discussions and decisions made regarding HEFCW's powers of intervention, including the current situation and conversations with FE and HE about closure decisions?",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the group's plan for their marketing strategy and how they aim to achieve the expected profit.",
+        "Article": ""
+    },
+    {
+        "Query": "Summarize the discussion about policies, measures, physical education, and food provision for free-school-meal children during the pandemic.",
+        "Article": ""
+    },
+    {
+        "Query": "Why did User Interface consider a curved design for the keypad and ergonomic design of the new remote control? What were the reasons for their agreement on the \"easy to use\", \"fashion\", \"easy to find\", and \"robust\" features? How did User Interface evaluate the fashion style of the remote control during their discussion?",
+        "Article": ""
+    }
+]

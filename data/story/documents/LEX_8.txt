@@ -1,0 +1,68 @@
+Lexington smiled. "Well, automated as it was, it couldn't compete with
+this plant. It gave me great pleasure, three years after this one
+started working, to see my old company go belly up. This company bought
+the old firm's equipment for next to nothing and I wound up with all my
+assets, but only one employee—me.
+  
+ 
+  "I thought everything would be rosy from that point on, but it
+wasn't. I found that I couldn't keep up with the mail unless I worked
+impossible hours. I added a couple of new pieces of equipment to the
+control section. One was simply a huge memory bank. The other was
+a comparator circuit. A complicated one, but a comparator circuit
+nevertheless. Here I was working on instinct more than anything. I
+figured that if I interconnected these circuits in such a way that
+they could sense everything that went on in the plant, and compare one
+action with another, by and by the unit would be able to see patterns.
+  
+ 
+  "Then, through the existing command output, I figured these new units
+would be able to control the plant, continuing the various patterns of
+activity that I'd already established."
+  
+ 
+  Here Lexington frowned. "It didn't work worth a damn! It just sat there
+and did nothing. I couldn't understand it for the longest time, and
+then I realized what the trouble was. I put a kicker circuit into it, a
+sort of voltage-bias network. I reset the equipment so that while it
+was still under instructions to receive orders and produce goods, its
+prime purpose was to activate the kicker. The kicker, however, could
+only be activated by me, manually. Lastly, I set up one of the early
+TV pickups over the mail slitter and allowed every letter I received,
+every order, to be fed into the memory banks. That did it."
+  
+ 
+  "I—I don't understand," stammered Peter.
+  
+ 
+  "Simple! Whenever I was pleased that things were going smoothly, I
+pressed the kicker button. The machine had one purpose, so far as its
+logic circuits were concerned. Its object was to get me to press that
+button. Every day I'd press it at the same time, unless things weren't
+going well. If there had been trouble in the shop, I'd press it late,
+or maybe not at all. If all the orders were out on schedule, or ahead
+of time, I'd press it ahead of time, or maybe twice in the same day.
+Pretty soon the machine got the idea.
+  
+ 
+  "I'll never forget the day I picked up an incoming order form from one
+of the western jobbers, and found that the keyboard was locked when I
+tried to punch it into the control console. It completely baffled me
+at first. Then, while I was tracing out the circuits to see if I could
+discover what was holding the keyboard lock in, I noticed that the
+order was already entered on the in-progress list. I was a long time
+convincing myself that it had really happened, but there was no other
+explanation.
+  
+ 
+  "The machine had realized that whenever one of those forms came in, I
+copied the list of goods from it onto the in-progress list through the
+console keyboard, thus activating the producing mechanisms in the back
+of the plant. The machine had done it for me this time, then locked the
+keyboard so I couldn't enter the order twice. I think I held down the
+kicker button for a full five minutes that day."
+  
+ 
+  "This kicker button," Peter said tentatively, "it's like the pleasure
+center in an animal's brain, isn't it?"
+  

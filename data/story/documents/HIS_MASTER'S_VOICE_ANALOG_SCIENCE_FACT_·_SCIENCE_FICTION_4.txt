@@ -1,0 +1,86 @@
+For more than a century, robotocists have been trying to build Asimov's
+famous Three Laws of Robotics into a robot brain.
+  
+ 
+ 
+   First Law: A robot shall not, either through action or inaction, allow
+harm to come to a human being.
+   
+ 
+ 
+ 
+   Second Law: A robot shall obey the orders of a human being, except
+when such orders conflict with the First Law
+   
+  .
+  
+ 
+  [15]
+  
+ 
+ 
+   Third Law: A robot shall strive to protect its own existence, except
+when this conflicts with the First or Second Law.
+   
+ 
+ 
+  Nobody has succeeded yet, because nobody has yet succeeded in defining
+the term "human being" in such a way that the logical mind of a robot
+can encompass the concept.
+  
+ 
+  A traffic robot is useful only because the definition has been rigidly
+narrowed down. As far as a traffic robot is concerned, "human beings"
+are the automobiles on its highways. Woe betide any poor sap who tries,
+illegally, to cross a robot-controlled highway on foot. The robot's
+only concern would be with the safety of the automobiles, and if the
+only way to avoid destruction of an automobile were to be by nudging
+the pedestrian aside with a fender, that's what would happen.
+  
+ 
+  And, since its orders only come from one place, I suppose that a
+traffic robot thinks that the guy who uses that typer is an automobile.
+  
+ 
+  With the first six models of the McGuire ships, the robotocists
+attempted to build in the Three Laws exactly as stated. And the first
+six went insane.
+  
+ 
+  If one human being says "jump left," and another says "jump right,"
+the robot is unable to evaluate which human being has given the more
+valid order. Feed enough confusing and conflicting data into a robot
+brain, and it can begin behaving in ways that, in a human being, would
+be called paranoia or schizophrenia or catatonia or what-have-you,
+depending
+  [16]
+  on the symptoms. And an insane robot is fully as dangerous
+as an insane human being controlling the same mechanical equipment, if
+not more so.
+  
+ 
+  So the seventh model had been modified. The present McGuire's brain was
+impressed with slight modifications of the First and Second Laws.
+  
+ 
+  If it is difficult to define a human being, it is much more difficult
+to define a
+   
+   responsible
+   
+  human being. One, in other words, who can
+be relied upon to give wise and proper orders to a robot, who can be
+relied upon not to drive the robot insane.
+  
+ 
+  The robotocists at Viking Spacecraft had decided to take another
+tack. "Very well," they'd said, "if we can't define all the members
+of a group, we can certainly define an individual. We'll pick one
+responsible person and build McGuire so that he will take orders only
+from that person."
+  
+ 
+  As it turned out, I was that person. Just substitute "Daniel Oak"
+for "human being" in the First and Second Laws, and you'll see how
+important I was to a certain spaceship named McGuire.
+  

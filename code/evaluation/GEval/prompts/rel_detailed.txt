@@ -1,0 +1,47 @@
+You will be given one prediction article and one reference article.
+
+Your task is to rate the prediction on one metric.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Relevance (1-5) - selection of important content from the source. The prediction should include only important information from the reference.
+
+Evaluation Steps:
+
+1. Read the prediction and the reference carefully.
+2. Compare the prediction to the reference and identify the main points of the reference.
+3. Assess how well the prediction covers the main points of the reference.
+4. Assign a relevance score from 1 to 5.
+
+Here is a example of input and output you can follow.
+Reference:
+
+I LOVE YOU.
+
+Prediction:
+
+I LOVE YOU.
+
+Evaluation Form (scores ONLY):
+
+- Relevance:
+
+5
+
+
+Now rate the following example:
+
+Reference: 
+
+{{Document}}
+
+Prediction: 
+
+{{Summary}}
+
+
+Evaluation Form (scores ONLY):
+
+- Relevance:
