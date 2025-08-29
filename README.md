@@ -1,8 +1,6 @@
-# MSRS: Benchmarking Multi-Source Retrieval-Augmented Generation
+# MSRS: Evaluating Multi-Source Retrieval-Augmented Generation
 
-<p align="center">
-  <a href="https://arxiv.org">📖 Paper</a>
-</p>
+#### [**📄 Paper**](https://arxiv.org/abs/2508.20867) | [**🤗 Data**](https://huggingface.co/datasets/yale-nlp/MSRS)
 
 ## Overview
 
@@ -22,7 +20,7 @@ This paper introduces a scalable framework for constructing evaluation benchmark
 
 The datasets for MSRS-Story and MSRS-Meet are provided in the `data` directory. 
 
-The retrieval code and its associated settings, which serve as inputs for summarization, are located in the `code/retrieval` directory.
+The retrieval code and the settings created by each retrieval model, which serve as inputs for summarization, are located in the `code/retrieval` directory.
 
 The summarization code is included in `code/summarization`.
 
@@ -76,3 +74,17 @@ Oracle Summarization Performance for Reasoning Models
   <img src="./images/summarization-reasoning.png" alt="image-20230930180329172" width="70%" />
 </p>
 
+## Citation
+
+If you find our work helpful, please consider citing it:
+
+```bibtex
+@inproceedings{
+    phanse2025msrs,
+    title={{MSRS}: Evaluating Multi-Source Retrieval-Augmented Generation},
+    author={Rohan Phanse and Yijie Zhou and Kejian Shi and Wencai Zhang and Yixin Liu and Yilun Zhao and Arman Cohan},
+    booktitle={Second Conference on Language Modeling},
+    year={2025},
+    url={https://openreview.net/forum?id=KtGsJm8bOC}
+}
+```
