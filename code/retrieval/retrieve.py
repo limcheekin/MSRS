@@ -1,3 +1,18 @@
+"""
+OPENAI_API_KEY=na \
+GEMINI_PROJECT=na \
+GEMINI_LOCATION=na \
+LOCALAI_API_KEY=sk-1 \
+LOCALAI_BASE_URL=http://192.168.1.111:8880/v1 \
+domain=story \
+python3 code/retrieval/retrieve.py \
+    --domain $domain \
+    --queries_path data/$domain/queries_test.json \
+    --documents_path data/$domain/documents \
+    --embeddings_path embeddings/$domain/qwen3-0-6 \
+    --method llm_embedding \
+    --model qwen3-0-6
+"""
 import json
 import os
 import numpy as np
@@ -18,6 +33,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(api_key = os.environ["OPENAI_API_KEY"])
+localai_client = OpenAI(api_key = os.environ["LOCALAI_API_KEY"], 
+                        base_url = os.environ["LOCALAI_BASE_URL"])
 gclient = genai.Client(
     vertexai=True, 
     project=os.environ["GEMINI_PROJECT"],
@@ -26,24 +43,29 @@ gclient = genai.Client(
 )
 
 model_to_path = {
-    "nv1": "nvidia/NV-Embed-v1",
-    "nv2": "nvidia/NV-Embed-v2",
-    "qwen-1-5": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
-    "qwen-7": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+#    "nv1": "nvidia/NV-Embed-v1",
+#    "nv2": "nvidia/NV-Embed-v2",
+#    "qwen-1-5": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+#    "qwen-7": "Alibaba-NLP/gte-Qwen2-7B-instruct",
 }
 openai_model_to_api = {
-    "text-3-small": "text-embedding-3-small",
-    "text-3-large": "text-embedding-3-large",
-    "text-ada": "text-embedding-ada-002",
+#    "text-3-small": "text-embedding-3-small",
+#    "text-3-large": "text-embedding-3-large",
+#    "text-ada": "text-embedding-ada-002",
 }
+
+localai_model_to_api = {
+    "qwen3-0-6": "qwen3-embedding-0.6b",
+}
+
 gemini_model_to_api = {
     # "gemini-embedding": "text-embedding-large-exp-03-07",
-    "gemini-embedding": "gemini-embedding-exp-03-07"
+#    "gemini-embedding": "gemini-embedding-exp-03-07"
 }
 supported_models = [
-    "nv1", "nv2", "qwen-1-5", "qwen-7", "gritlm", "text-3-small", 
-    "text-3-large", "text-ada", "promptriever", "gemini-embedding", 
-    "bm25"
+#    "nv1", "nv2", "qwen-1-5", "qwen-7", "gritlm", "text-3-small", 
+#    "text-3-large", "text-ada", "promptriever", "gemini-embedding", 
+    "bm25", "qwen3-0-6"
 ]
 
 prompt = "Given a question, retrieve passages that answer the question"
@@ -82,6 +104,12 @@ def get_embedding(model_name, model, domain, text, max_tokens=1000, is_query=Fal
                 model=openai_model_to_api[model_name]
             )
             return result.data[0].embedding
+        if model_name in localai_model_to_api:
+            result = localai_client.embeddings.create(
+                input=text, 
+                model=localai_model_to_api[model_name]
+            )
+            return result.data[0].embedding        
         if model_name in gemini_model_to_api:
             time.sleep(1)
             result = gclient.models.embed_content(
