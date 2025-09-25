@@ -1,10 +1,10 @@
 """
-OPENAI_API_KEY=na \
-GEMINI_PROJECT=na \
-GEMINI_LOCATION=na \
-LOCALAI_API_KEY=sk-1 \
-LOCALAI_BASE_URL=http://192.168.1.111:8880/v1 \
-domain=story \
+OPENAI_API_KEY="na" \
+GEMINI_PROJECT="na" \
+GEMINI_LOCATION="na" \
+LOCALAI_API_KEY="sk-1" \
+LOCALAI_BASE_URL="http://192.168.1.111:8880/v1" \
+domain="story" \
 python3 code/retrieval/retrieve.py \
     --domain $domain \
     --queries_path data/$domain/queries_test.json \
@@ -348,7 +348,9 @@ class InformationRetrieval:
                 # Dictionary to store pre-computed embeddings
                 self.embeddings = self.precompute_embeddings(
                     model_name, model, domain
-                )  
+                )
+                # Create directory if it doesn't exist
+                os.makedirs(os.path.dirname(self.embedding_file), exist_ok=True)
                 # Save the computed embeddings to a file
                 with open(self.embedding_file, "w") as f:
                     json.dump(self.embeddings, f)
