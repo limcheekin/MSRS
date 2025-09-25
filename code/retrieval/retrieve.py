@@ -1,18 +1,3 @@
-"""
-OPENAI_API_KEY="na" \
-GEMINI_PROJECT="na" \
-GEMINI_LOCATION="na" \
-LOCALAI_API_KEY="sk-1" \
-LOCALAI_BASE_URL="http://192.168.1.111:8880/v1" \
-domain="story" \
-python3 code/retrieval/retrieve.py \
-    --domain $domain \
-    --queries_path data/$domain/queries_test.json \
-    --documents_path data/$domain/documents \
-    --embeddings_path embeddings/$domain/qwen3-0-6 \
-    --method llm_embedding \
-    --model qwen3-0-6
-"""
 import json
 import os
 import numpy as np
@@ -165,6 +150,13 @@ def get_embedding(model_name, model, domain, text, max_tokens=1000, is_query=Fal
                     model=openai_model_to_api[model_name]
                 ).data[0].embedding for chunk in chunks
             ])
+        elif model_name in localai_model_to_api:
+            chunk_embeddings = np.array([
+                localai_client.embeddings.create(
+                    input=chunk, 
+                    model=localai_model_to_api[model_name]
+                ).data[0].embedding for chunk in chunks
+            ])            
         elif model_name in gemini_model_to_api:
             time.sleep(len(chunks))
             chunk_embeddings = np.array([
