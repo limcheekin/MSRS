@@ -109,13 +109,14 @@ def generate_and_save_summaries(
                 temperature=1
             )
             summary = response.choices[0].message.content
+        # REF: https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF    
         elif model in ["qwen3-4b"]:
             # LocalAI API
             response = client.chat.completions.create(
                 model = model,
                 messages=[{"role": "user", "content": prompt}], 
-                temperature=0.9, 
-                top_p=0.95, 
+                temperature=0.7, 
+                top_p=0.8,
                 max_tokens=600,
             )
             summary = response.choices[0].message.content            
@@ -225,7 +226,7 @@ def main():
         )
     elif args.model in ["qwen3-4b"]:
         client = client = OpenAI(
-            base_url=os.environ["LOCALAI_BASE_URL"],
+            base_url="https://limcheekin--qwen3-4b-instruct-llama-server.modal.run/v1",
             api_key=os.environ["LOCALAI_API_KEY"],
             timeout=900 # 15 minutes
         )        
