@@ -7,11 +7,74 @@ import bert_score
 import asyncio
 import aiolimiter
 import math
-from openai import AsyncOpenAI
+import random
+import re
+from openai import AsyncOpenAI, RateLimitError
 from dotenv import load_dotenv
 load_dotenv()
 
 client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
+
+async def make_openai_request_with_retry(message, max_retries=5, base_delay=1):
+    """Make OpenAI API request with exponential backoff retry logic.
+
+    Args:
+        message: The message to send to OpenAI API
+        max_retries: Maximum number of retry attempts (default: 5)
+        base_delay: Base delay in seconds for exponential backoff (default: 1)
+
+    Returns:
+        OpenAI API response object
+
+    Raises:
+        RateLimitError: If rate limit is hit after all retries
+        Exception: If other API errors occur after all retries
+    """
+    last_exception = None
+
+    for attempt in range(max_retries):
+        try:
+            response = await client.chat.completions.create(
+                model="gpt-4o",
+                messages=message,
+                logprobs=True,
+                top_logprobs=20,
+                max_tokens=1
+            )
+            return response
+
+        except RateLimitError as e:
+            last_exception = e
+            if attempt == max_retries - 1:
+                raise
+
+            # Extract wait time from error message if available
+            wait_time = base_delay * (2 ** attempt) + random.uniform(0, 1)
+            if "Please try again in" in str(e):
+                try:
+                    # Extract milliseconds from error message
+                    match = re.search(r'Please try again in (\d+)ms', str(e))
+                    if match:
+                        wait_time = max(wait_time, int(match.group(1)) / 1000.0)
+                except Exception:
+                    pass
+
+            print(f"Rate limit hit, waiting {wait_time:.2f} seconds before retry {attempt + 1}/{max_retries}")
+            await asyncio.sleep(wait_time)
+
+        except Exception as e:
+            last_exception = e
+            if attempt == max_retries - 1:
+                raise
+
+            wait_time = base_delay * (2 ** attempt)
+            print(f"API error: {type(e).__name__}: {e}, waiting {wait_time:.2f} seconds before retry {attempt + 1}/{max_retries}")
+            await asyncio.sleep(wait_time)
+
+    # This should never be reached, but just in case
+    if last_exception:
+        raise last_exception
+    raise RuntimeError("Unexpected error in retry logic")
 
 def compute_geval_score(top_logprobs):
     """Computes G-Eval score given top log probabilities of next token."""
@@ -33,19 +96,23 @@ def compute_geval_score(top_logprobs):
 
 
 async def score_summaries(messages, requests_per_minute):
-    """Computes G-Eval scores for all the summaries in the given list of 
+    """Computes G-Eval scores for all the summaries in the given list of
     OpenAI API messages, using request throttling.
     """
-    limiter = aiolimiter.AsyncLimiter(requests_per_minute)
+    # Use both request-based and token-based limiting
+    # Estimate ~500 tokens per request (conservative estimate)
+    tokens_per_minute = 25000  # Conservative limit below 30k TPM
+    estimated_tokens_per_request = 500
+    max_requests_by_tokens = tokens_per_minute // estimated_tokens_per_request
+
+    # Use the more restrictive limit
+    effective_rpm = min(requests_per_minute, max_requests_by_tokens)
+    print(f"Using effective rate limit: {effective_rpm} requests per minute")
+
+    limiter = aiolimiter.AsyncLimiter(effective_rpm)
     async def req(message):
         async with limiter:
-            response = await client.chat.completions.create(
-                model="gpt-4o",
-                messages=message,
-                logprobs=True,
-                top_logprobs=20,
-                max_tokens=1
-            )
+            response = await make_openai_request_with_retry(message)
             top_logprobs = response.choices[0].logprobs.content[0].top_logprobs
             return compute_geval_score(top_logprobs)
 
@@ -193,8 +260,36 @@ async def evaluate_geval(
     num_passes = 1
     metric_list = ["rel"]
     dataset = dataset.lower()
+
+    # Check for existing partial results
+    save_path = os.path.join(path, "evaluation", model_name)
+    progress_file = os.path.join(save_path, f"{model_name}_geval_progress.json")
+
     for metric_type in metric_list:
         for i in range(num_passes):
+            # Check if this pass was already completed
+            if os.path.exists(progress_file):
+                try:
+                    with open(progress_file, 'r') as f:
+                        progress = json.load(f)
+                        if f"{metric_type}_pass_{i}" in progress:
+                            print(f"Resuming from saved progress for {metric_type} pass {i}")
+                            response_list = progress[f"{metric_type}_pass_{i}"]
+                            average_score = compute_average(response_list)
+                            passes.append(average_score)
+
+                            # Store pass information
+                            geval = {}
+                            if dataset == "story":
+                                geval["Summary_" + str(geval_summary_index)] = response_list
+                            elif dataset == "meeting":
+                                geval["Summary"] = response_list
+                            geval["Average"] = average_score
+                            outputs[f"Pass #{i + 1}"] = geval
+                            continue
+                except (json.JSONDecodeError, KeyError) as e:
+                    print(f"Warning: Could not load progress file: {e}. Starting fresh.")
+
             # Get prompt
             prompt = open(f"GEval/prompts/{metric_type}_detailed.txt").read()
             # Get messages
@@ -205,11 +300,31 @@ async def evaluate_geval(
                 cur_prompt = cur_prompt.replace("{{Summary}}", prediction)
                 messages.append([{"role": "system", "content": cur_prompt}])
 
+            print(f"Processing {len(messages)} messages for {metric_type} pass {i}")
             # Get all G-Eval score responses
             response_list = await score_summaries(
                 messages=messages,
-                requests_per_minute=180
+                requests_per_minute=30  # Reduced from 180 to avoid rate limits
             )
+
+            # Save progress
+            progress = {}
+            if os.path.exists(progress_file):
+                try:
+                    with open(progress_file, 'r') as f:
+                        progress = json.load(f)
+                except (json.JSONDecodeError, IOError) as e:
+                    print(f"Warning: Could not read existing progress file: {e}")
+                    progress = {}
+
+            progress[f"{metric_type}_pass_{i}"] = response_list
+
+            try:
+                with open(progress_file, 'w') as f:
+                    json.dump(progress, f, indent=2)
+                print(f"Progress saved for {metric_type} pass {i}")
+            except IOError as e:
+                print(f"Warning: Could not save progress file: {e}")
             # Calculate average 
             average_score = compute_average(response_list)
             passes.append(average_score)
@@ -227,9 +342,14 @@ async def evaluate_geval(
         outputs["Average Score"] = [average]
         outputs["Average Percentage Score"] = average * 20
         file_name = f"{model_name}_{metric_type}_gpteval.json"
-        save_path = os.path.join(path, "evaluation", model_name, file_name)
-        with open(save_path, "w") as f:
+        final_save_path = os.path.join(path, "evaluation", model_name, file_name)
+        with open(final_save_path, "w") as f:
             json.dump(outputs, f)
+
+        # Clean up progress file on successful completion
+        if os.path.exists(progress_file):
+            os.remove(progress_file)
+            print(f"Evaluation completed successfully. Cleaned up progress file.")
 
 
 async def evaluate_model(
