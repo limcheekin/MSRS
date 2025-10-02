@@ -242,6 +242,7 @@ async def evaluate_model(
     geval_summary_index=1,
 ):
     """Perform evaluations for the specified model at the given path."""
+    print('load_pred(path, model_name)', path, model_name)
     # Load predictions
     predictions = load_pred(path, model_name)
     if not predictions:
@@ -250,12 +251,15 @@ async def evaluate_model(
         predictions[index] for index, item in enumerate(predictions)
         if item != ""
     ]
+    print('predictions', predictions)
+
     # Load references
     references = load_ref(dataset)
     references = [
         references[index] for index, item in enumerate(predictions) 
         if item != ""
     ]
+    print('references', references)
 
     # Create save directory if needed
     save_path = os.path.join(path, "evaluation", model_name)
@@ -292,12 +296,14 @@ async def main():
     domain = "story" # Either "meeting" or "story"
     if domain == "story":
         retrieval_settings = [
-            "bm25", "qwen-1-5", "nv2", "gemini-embedding", "oracle"
+            # "bm25", "qwen-1-5", "nv2", "gemini-embedding", "oracle"
+            "qwen3-0-6"
         ]
         models = [
-            "llama2-7", "llama2-70", "llama3-1-8", "qwen-7", "llama3-3-70", 
-            "llama3-1-70", "qwen-72", "gpt-4o-mini", "gpt-4o", "gemini-1-5-pro", 
-            "gemini-2-flash", "deepseek-v3"
+            # "llama2-7", "llama2-70", "llama3-1-8", "qwen-7", "llama3-3-70", 
+            # "llama3-1-70", "qwen-72", "gpt-4o-mini", "gpt-4o", "gemini-1-5-pro", 
+            # "gemini-2-flash", "deepseek-v3"
+            "qwen3-4b"
         ]
     elif domain == "meeting":
         retrieval_settings = [
@@ -309,7 +315,7 @@ async def main():
             "deepseek-v3", "gpt-4o-mini", "gpt-4o"
         ]
     # Flags
-    perform_evaluations = False 
+    perform_evaluations = True 
     # Compute averages across models (row) and retrieval settings (column) for
     # each metric
     row_averages = {}
