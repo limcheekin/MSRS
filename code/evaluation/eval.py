@@ -462,7 +462,8 @@ async def main():
                     dataset=domain, 
                     rouge=True,
                     bert=True,
-                    geval=True
+                    geval=True,
+                    geval_summary_index=2,
                 )
             
             print(split, model)
