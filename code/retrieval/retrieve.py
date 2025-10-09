@@ -41,6 +41,7 @@ openai_model_to_api = {
 
 localai_model_to_api = {
     "qwen3-0-6": "qwen3-embedding-0.6b",
+    "qwen3-4": "qwen3-embedding-4b",
 }
 
 gemini_model_to_api = {
@@ -50,7 +51,7 @@ gemini_model_to_api = {
 supported_models = [
 #    "nv1", "nv2", "qwen-1-5", "qwen-7", "gritlm", "text-3-small", 
 #    "text-3-large", "text-ada", "promptriever", "gemini-embedding", 
-    "bm25", "qwen3-0-6"
+    "bm25", "qwen3-0-6", "qwen3-4"
 ]
 
 prompt = "Given a question, retrieve passages that answer the question"
