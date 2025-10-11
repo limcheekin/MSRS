@@ -91,8 +91,12 @@ def get_embedding(model_name, model, domain, text, max_tokens=1000, is_query=Fal
             )
             return result.data[0].embedding
         if model_name in localai_model_to_api:
+            if is_query:
+                prompt = query_prefix + text
+            else:    
+                prompt = text
             result = localai_client.embeddings.create(
-                input=text, 
+                input=prompt, 
                 model=localai_model_to_api[model_name]
             )
             return result.data[0].embedding        
