@@ -110,12 +110,12 @@ def generate_and_save_summaries(
             )
             summary = response.choices[0].message.content
         # REF: https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF    
-        elif model in ["qwen3-4b"]:
+        elif model in ["qwen3-4b-instruct"]:
             # LocalAI API
             response = client.chat.completions.create(
                 model = model,
                 messages=[{"role": "user", "content": prompt}], 
-                temperature=0.7, 
+                temperature=0.7,
                 top_p=0.8,
                 max_tokens=600,
             )
@@ -203,7 +203,7 @@ def main():
         "gpt-4o-mini", "gpt-4o", "gemini-1-5-pro", "gemini-2-flash", 
         "deepseek-v3", "deepseek-r1", "gemini-2-5-flash", "gemini-2-5-pro", 
         "gpt-oss-20b", "gpt-oss-120b", "gpt-5", "gpt-5-mini", "gpt-5-nano", "o3",
-        "qwen3-4b"
+        "qwen3-4b-instruct"
     ])
     parser.add_argument("--use_oracle_prompt", action="store_true")
     parser.add_argument("--use_contamination_check_prompt", action="store_true")
@@ -224,9 +224,9 @@ def main():
         client = OpenAI(
             api_key=os.environ["OPENAI_API_KEY"]
         )
-    elif args.model in ["qwen3-4b"]:
+    elif args.model in ["qwen3-4b-instruct"]:
         client = client = OpenAI(
-            base_url="https://limcheekin--qwen3-4b-instruct-llama-server.modal.run/v1",
+            base_url=os.environ["LOCALAI_BASE_URL"],
             api_key=os.environ["LOCALAI_API_KEY"],
             timeout=900 # 15 minutes
         )        
